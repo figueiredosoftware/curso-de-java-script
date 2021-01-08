@@ -1,0 +1,14 @@
+CURSO JAVASCRIPT
+================
+SITES
+======
+babeljs.io
+http://kangax.github.io/compat-table/es6/
+https://caniuse.com/?search=let
+
+COMANDOS
+========
+- $ code .  : chama Visual Studio Code
+- $ node primeiro-exemplo.js : executa javascript primeiro-exemplo.js
+- $ node (abre terminal de java script ) quando tá o simbolo > quer dizer que ta na interface do NODE
+   CTRL + C duas vezes volta pro terminal bash
