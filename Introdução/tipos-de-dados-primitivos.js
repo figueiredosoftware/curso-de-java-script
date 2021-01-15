@@ -28,3 +28,12 @@ console.log(msg);
 
 console.log ("Hello " + "World");
 
+//verificando o tipo da variável
+console.log("tipo da variável msg : ", typeof msg, "tipo da variavel idade : ",  typeof idade);
+
+//variavel tipo number
+var n1 = 10;
+const n2 = 1.1;
+console.log(`o tipo de n1 é ${typeof n1} e seu valor é ${n1}`);
+console.log(`o tipo de n2 é ${typeof n2} e seu valor é ${n2}`);
+
