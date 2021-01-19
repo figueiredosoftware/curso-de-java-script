@@ -43,3 +43,22 @@ console.log(`o valor da variável isvalid1 é : ${isvalid1}`);
 const isvalid2 = false;
 console.log(`o valor da variável isvalid2 é : ${isvalid2}`);
 
+//Undefined e null
+//undefined é quando eu crio uma variável e não atribui nenhum valor a ela ou atribuo undefined
+//null é quando eu crio uma variável e não quero atribuir nenhum valor a ela
+//undefined
+var varTeste;
+console.log(varTeste);
+console.log(typeof varTeste);
+varTeste = 10;
+console.log(varTeste);
+console.log(typeof varTeste);
+console.log(typeof varTeste, varTeste);
+var varteste2 = undefined;
+console.log(typeof varteste2, varteste2);
+//null
+var varteste3 = null;
+console.log(typeof varteste3, varteste3);
+
+
+
