@@ -74,3 +74,7 @@ console.log(n17, n18, typeof n17, typeof n18);
 var n19 = 12;
 var n20 = n19.toString(16); //passando por parametro a  base é 16 hexadecimal
 console.log(n19, n20, typeof n19, typeof n20);
+
+var n21 = 57;
+var n22 = n21.toString(2); //passando por parametro a  base é 2 binária
+console.log(n21, n22, typeof n21, typeof n22);
