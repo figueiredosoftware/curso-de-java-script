@@ -12,3 +12,9 @@ COMANDOS
 - $ node primeiro-exemplo.js : executa javascript primeiro-exemplo.js
 - $ node (abre terminal de java script ) quando tá o simbolo > quer dizer que ta na interface do NODE
    CTRL + C duas vezes volta pro terminal bash
+
+
+17/02/2021
+==========
+
+parei em iporadores de comparação 4:36
