@@ -47,3 +47,7 @@ switch(diaDaSemana){
 
 console.log(`hoje é ${nomeDiaSemana}`);
 
+
+
+
+
