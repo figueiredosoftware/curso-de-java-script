@@ -15,16 +15,35 @@
         //declaração de função
         function ola(){
             console.log("Hello World");
-            document.write("Hello World");
+            document.write("Hello World </br>");
         };
         ola();
 
         //expressão de função - function expression
         const ola2 = function(){
             console.log("Hello World by function expression");
-            document.write("Hello World by function expression");
+            document.write("Hello World by function expression </br>");
         }
         ola2();
+
+        //arrow functions
+        const ola3 = () => {
+            console.log("Hello World by Arrow Function");
+            document.write("Hello World by Arrow Funcion <br/>");
+        }
+        ola3();
+        ola3();
+        ola3();
+
+        //return values - funções que retornam valores
+        function obtemDiaSemana(){
+            return new Date().getDay();
+        }
+
+        var  dia = obtemDiaSemana();
+        console.log(dia);
+        document.write(dia);
+
 
     </script>
 </body>
