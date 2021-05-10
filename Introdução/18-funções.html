@@ -39,11 +39,37 @@
         function obtemDiaSemana(){
             return new Date().getDay();
         }
-
         var  dia = obtemDiaSemana();
         console.log(dia);
         document.write(dia);
+        document.write("<br/>");
+        console.log(obtemDiaSemana());
+        document.write(obtemDiaSemana());
 
+        //função que recebe 2 números e soma esses numeros
+        function somar(n1, n2){
+            return n1 + n2;
+        }
+        var soma = somar(3, 5);
+        console.log(soma);
+        document.write("<br/>" + soma);
+        alert(somar(2, 3));
+        alert(somar(2, 3, 6)); //não da problema passar parametro a mais, o interpretador do java script desconsidera
+        document.write(somar(2)); // da erro porque vai somar 2 com not a nunber NAN
+
+        //pra resolver esse problema criamos valores padrões default em variaveis caso ela não receba valor fica valendo o default
+        function somarValor(num1, num2){
+            var _num1 = num1 | 0;
+            var _num2 = num2 | 0;
+            return _num1 + _num2;
+        }
+        document.write("<br/>" + somarValor(4));
+
+        //pode ser assim tambpem para definir valores padrão default, senão passar nada assume 0
+        function somarValores(nu1 = 0, nu2 = 0){
+            return nu1 + nu2;
+        }
+        document.write("<br/>" + somarValores(6));
 
     </script>
 </body>
