@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Funções - Tabuada</h1>
+
+    <button onclick="mostrarTabuada()">Mostrar Tabuada</button> 
+    <button>Limpar Tabuada</button>
+
+    <div id="output"></div>
+
+
+    <script>
+        //quando clicar no botão mostrar tabuada pedir para usuário digitar um número e depois
+        //mostrar a tabuada desse numero de 1 a 10000
+        //toda informação que vem da interface do usuário é string
+        //
+        function mostrarTabuada(){
+            const output = document.getElementById("output");
+            var numero = window.prompt("Digite o valor da tabuada: ", "O valor deve ser um número");
+
+            if(numero == null || numero == ""){
+                alert("Valor inválido !!!");
+            }
+            else{
+                var num = parseInt(numero);
+                if(isNaN(num)){
+                    alert("valor não é numérico !!!")
+                }
+                else{
+                    output.innerHTML = "valor tabuada <br>";
+                }
+            }
+        }
+    </script>
+</body>
+</html>
