@@ -12,7 +12,7 @@
     <h1>Funções - Tabuada</h1>
 
     <button onclick="mostrarTabuada()">Mostrar Tabuada</button> 
-    <button>Limpar Tabuada</button>
+    <button onclick="limparTabuada()">Limpar Tabuada</button>
 
     <div id="output"></div>
 
@@ -26,18 +26,20 @@
             const output = document.getElementById("output");
             var numero = window.prompt("Digite o valor da tabuada: ", "O valor deve ser um número");
 
-            if(numero == null || numero == ""){
+            if(numero == null || numero == "" || isNaN(parseInt(numero))){
                 alert("Valor inválido !!!");
             }
             else{
                 var num = parseInt(numero);
-                if(isNaN(num)){
-                    alert("valor não é numérico !!!")
-                }
-                else{
-                    output.innerHTML = "valor tabuada <br>";
+                for(i=1;i<=1000;i++){
+                    output.innerHTML += num + " * " + i + " = " + num * i + "<br/>";
                 }
             }
+        }
+
+        function limparTabuada(){
+            const output = document.getElementById("output");
+            output.innerHTML = "";
         }
     </script>
 </body>
