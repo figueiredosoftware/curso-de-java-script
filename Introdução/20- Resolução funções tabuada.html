@@ -27,10 +27,11 @@
             var numero = parseFloat(prompt("Digite o valor da tabuada: ", "O valor deve ser um número"));
 
             var msg = "";
-            for(i=1;i<=1000;i++){
-                msg += `${numero} x ${i} = ${umero * i} <br/>`;
+            for(let i=1;i<=1000;i++){
+                msg += `${numero} x ${i} = ${numero * i} <br/>`;
             }
             output.innerHTML = msg;
+            console.log(i);
         }
 
         function limparTabuada(){
