@@ -39,6 +39,21 @@ mostarNlocal();
 console.log("Valor de n : " + n);
 //console.log("Valor de n1 : " + n1);
 
+function fnExt(){
+    let n = "n local na função fnExt";
+
+    function fnInt(){
+        let n = "n local na funcao fnInt";
+        console.log("valor do n dentro de fnInt : " + n);
+    }
+
+    fnInt();
+    console.log("valor do n dentro de fnExt : " + n);
+}
+
+fnExt();
+
+
 
 
 
