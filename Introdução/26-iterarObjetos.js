@@ -8,5 +8,5 @@ console.log(pessoa);
 
 for(var propriedade in pessoa){
     console.log(propriedade);
-    console.log(pessoa[propriedade]);24
+    console.log(pessoa[propriedade]);
 }
